@@ -2,7 +2,7 @@ import sys
 
 
 def launch_tool():
-    root = r"C:\Users\malo.muylaert\Desktop\exo\renamer"
+    root = r"C:\Path\to\folder\renamer"
     if root not in sys.path:
         sys.path.append(root)
 
